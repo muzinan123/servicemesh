@@ -201,7 +201,8 @@ Deep-dive articles documenting the internals behind this implementation:
 
 | Article | Key Topics |
 |---------|-----------|
-| [xDS Protocol Deep Dive](#) | LDS/RDS/CDS/EDS/SDS data structures, gRPC streaming, ACK/NACK, Nonce |
-| [Istio & Envoy Architecture](#) | Pilot-Envoy interaction, 4 core Envoy resources, Filter layer design |
-| [Circuit Breaking & Rate Limiting](#) | connectionPool, outlierDetection, progressive ejection, safety nets |
-| [Full Observability: Metrics + Tracing](#) | Prometheus data model, Grafana inbound/outbound, Jaeger trace propagation |
+| [xDS Protocol Deep Dive](https://dev.to/jamesli/xds-protocol-deep-dive-the-universal-control-plane-api-behind-envoy-and-istio-2de9) | LDS/RDS/CDS/EDS/SDS data structures, gRPC streaming, ACK/NACK, Nonce |
+| [Istio & Envoy Architecture](https://dev.to/jamesli/istio-envoy-service-mesh-architecture-how-the-control-plane-and-data-plane-work-together-2nd6) | Pilot-Envoy interaction, 4 core Envoy resources, Filter layer design |
+| [Circuit Breaking & Rate Limiting](https://dev.to/jamesli/traffic-management-in-istio-circuit-breaking-rate-limiting-with-destinationrule-1oim) | connectionPool, outlierDetection, progressive ejection, safety nets |
+| [Full Observability: Metrics + Tracing](https://dev.to/jamesli/full-observability-in-istio-metrics-with-prometheusgrafana-distributed-tracing-with-jaeger-3b8g) | Prometheus data model, Grafana inbound/outbound, Jaeger trace propagation |
+
